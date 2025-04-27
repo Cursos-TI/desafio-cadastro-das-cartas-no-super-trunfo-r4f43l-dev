@@ -25,7 +25,8 @@ int main() {
         scanf("%f", &pib);
                                // nesta área foram armazenadas as informações da variavel (pib)
         printf("digite o numero de pontos turísticos dessa cidade:\n" );
-        scanf("%d", &turismo);
+        scanf("%d", &turismo); 
+                               //nesta área foram armazenadas as informações da variavel (turismo)
 
         printf("digite uma letra de (A) a (h) que representará o estado da segunda carta: \n");
         scanf("%s", estado2);
@@ -47,7 +48,8 @@ int main() {
                     // nesta área foram armazenadas as informações da variavel (pib2)
         printf("digite o numero de pontos turísticos dessa cidade:\n" );
         scanf("%d", &turismo2);
-
+                   //nesta área foram armazenadas as informações da variavel (turismo2)
+          // apresentação de todos os dados armazenados 
         printf("carta 1\n");
         printf("estado: %s\n", estado);
         printf("codigo: %s\n",codigo);
